@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84842321-BA0E-9586-C40F-03402117D862" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_IDENTIDADE_DIGITAL">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>T_IDENTIDADE_DIGITAL</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_IDENTIDADE_DIGITAL" id="096D91CA-C534-42AC-48A4-578E55E0C676">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_IDENTIDADE_DIGITAL</sourceObjSchema>
+<sourceObjName>ID_IDENTIDADE_DIGITAL</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="759000BD-3ABD-24A0-AB39-3D293454D016">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_IDENTIDADE_DIGITAL</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DFB1D53-421B-016A-06B5-039E31B64E22" referredColumn="F5DDA239-FD07-02B5-7BFE-A3ED0F6414FE"/>
+</associations>
+</Column>
+<Column name="CHAVE_PUBLICA" id="A18CF2BC-E2EB-2C8D-04FD-306E783CA15E">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_IDENTIDADE_DIGITAL</sourceObjSchema>
+<sourceObjName>CHAVE_PUBLICA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERTIFICADO_DIGITAL" id="AD4829BA-EA8F-B45B-CEC4-CA1CDDB9A1BC">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_IDENTIDADE_DIGITAL</sourceObjSchema>
+<sourceObjName>CERTIFICADO_DIGITAL</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_EMISSAO" id="E4C49A1B-ECFB-A227-863D-DF01544C2F93">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_IDENTIDADE_DIGITAL</sourceObjSchema>
+<sourceObjName>DT_EMISSAO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_EXPIRACAO" id="7E6DBEE1-763A-4757-3A0E-6BCC1F7C97EC">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_IDENTIDADE_DIGITAL</sourceObjSchema>
+<sourceObjName>DT_EXPIRACAO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63F877D0-6288-A80C-0ECC-8BED7839ADB4" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_IDENTIDADE_DIGITAL_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009423</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096D91CA-C534-42AC-48A4-578E55E0C676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D348A912-EE71-B506-D314-EF5EC7DBB942" name="FK_IDENTIDADEDIGITAL_USUARIO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759000BD-3ABD-24A0-AB39-3D293454D016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

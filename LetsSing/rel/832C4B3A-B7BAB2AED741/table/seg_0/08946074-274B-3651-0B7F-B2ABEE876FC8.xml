@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08946074-274B-3651-0B7F-B2ABEE876FC8" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_TRANSACOES_BLOCKCHAIN">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>T_TRANSACOES_BLOCKCHAIN</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="85C82AB5-1C8A-5DAF-8975-124D3A5F3A31">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_TRANSACOES_BLOCKCHAIN</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_BLOCO" id="9E1969E5-12B5-5BD0-BF2D-7C5A2150D626">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_TRANSACOES_BLOCKCHAIN</sourceObjSchema>
+<sourceObjName>ID_BLOCO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="885B09A9-13CD-E576-63EA-998119E67DA6" referredColumn="06F334AC-8575-6154-769F-50AE682E627B"/>
+</associations>
+</Column>
+<Column name="ID_DOCUMENTO" id="1330A8C7-CE4E-D540-0DB3-6F7EFC0D7519">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_TRANSACOES_BLOCKCHAIN</sourceObjSchema>
+<sourceObjName>ID_DOCUMENTO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04877D46-E46B-0A7B-95A2-30E6CD0DB75B" referredColumn="EFD39F85-C5E8-C0D2-AD44-8E4CD43F4478"/>
+</associations>
+</Column>
+<Column name="HASH_TRANSACAO" id="1E59A580-A44F-A43C-E78B-AFCB8D35C5B3">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_TRANSACOES_BLOCKCHAIN</sourceObjSchema>
+<sourceObjName>HASH_TRANSACAO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TRANSACAO" id="CB372376-F68F-B714-F928-DCE984B13D36">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_TRANSACOES_BLOCKCHAIN</sourceObjSchema>
+<sourceObjName>DT_TRANSACAO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="055DF8A4-646C-F008-2C15-D956E7175295" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_TRANSACOES_BLOCKCHAIN_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009442</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C82AB5-1C8A-5DAF-8975-124D3A5F3A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F0E6B1D-2D5E-E50B-663E-EA48B74844C6" name="FK_TRANSACOES_BLOCO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E1969E5-12B5-5BD0-BF2D-7C5A2150D626"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEDCABDF-467F-2D91-7C4B-B6932DFA3A98" name="FK_TRANSACOES_DOCUMENTO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1330A8C7-CE4E-D540-0DB3-6F7EFC0D7519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

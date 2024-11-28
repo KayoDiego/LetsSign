@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_BLOCOS_BLOCKCHAIN" directorySegmentName="seg_0" id="F5C23FB5-6064-2C89-BA96-C84BC51FFE85">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8776CEBF-5935-3C9C-1B4F-15CFADD8CB7B</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_BLOCO" id="06F334AC-8575-6154-769F-50AE682E627B">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BLOCO_HASH" id="758B9A8D-E4AF-036D-FFCB-8D913B9111EC">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BLOCO_HASH_ANTERIOR" id="98379F72-7DE6-2C39-9800-E4B235256A3B">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_INCLUSAO" id="BEB1526B-8ED6-4CAF-0429-A43E81D067EA">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000080426C00002$$" id="038AB321-A519-F6FA-AC3D-D64C62C53A3B">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>BLOCO_HASH</column>
+<logging>YES</logging>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+</LobStorage>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000080426C00004$$" id="058DE902-51F3-D21A-6A10-59D19D62EE96">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>BLOCO_HASH_ANTERIOR</column>
+<logging>YES</logging>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_BLOCOS_BLOCKCHAIN_PK" id="6F742408-37FA-44A9-DE36-6306A5A45E09">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<segment>5C1EA42B-2977-1A00-F558-CF031594CAEC</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<indexSegment>5C1EA42B-2977-1A00-F558-CF031594CAEC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

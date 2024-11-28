@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B5E3B00-03AE-9F54-8959-492C2028FEF0" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_BIOMETRIA">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>T_BIOMETRIA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BIOMETRIA" id="38B269AE-4CE9-625B-AC0F-293CF7D6CD9E">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_BIOMETRIA</sourceObjSchema>
+<sourceObjName>ID_BIOMETRIA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="9200C02E-DAD7-3B33-2F1A-0E621AA1E481">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_BIOMETRIA</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D32514E2-AF65-3214-B822-F89F63C5A611" referredColumn="F5DDA239-FD07-02B5-7BFE-A3ED0F6414FE"/>
+</associations>
+</Column>
+<Column name="TIPO_BIOMETRIA" id="C3356F8E-29F0-69AB-B051-14FAAD06E05F">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_BIOMETRIA</sourceObjSchema>
+<sourceObjName>TIPO_BIOMETRIA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DADOS_BIOMETRICOS" id="6EF49057-0FFE-427B-C974-4D82B1B560AC">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_BIOMETRIA</sourceObjSchema>
+<sourceObjName>DADOS_BIOMETRICOS</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_BIOMETRIA" id="68C772EA-FB5A-E0E5-B6FF-F4BF4D58AEFE">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_BIOMETRIA</sourceObjSchema>
+<sourceObjName>DT_BIOMETRIA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA5DB2AC-4B05-91E9-BBE1-50EA18F93CE9" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_BIOMETRIA_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009433</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38B269AE-4CE9-625B-AC0F-293CF7D6CD9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73C824E5-112D-87F6-7598-0361E511C280" name="FK_BIOMETRIA_USUARIO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9200C02E-DAD7-3B33-2F1A-0E621AA1E481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

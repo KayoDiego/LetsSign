@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29FE6AA1-6B7D-9AE2-A8CD-35B545C993AE" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_ASSINATURAS">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>T_ASSINATURAS</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ASSINATURA" id="940CF47B-2AA5-D9EB-F4FA-D12884AE014A">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_ASSINATURAS</sourceObjSchema>
+<sourceObjName>ID_ASSINATURA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="0C96C8EC-25CD-8595-A9DA-AD024F80FA4A">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_ASSINATURAS</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFC69BDB-6DB9-F0B6-1BC3-5659A35BC926" referredColumn="F5DDA239-FD07-02B5-7BFE-A3ED0F6414FE"/>
+</associations>
+</Column>
+<Column name="ID_DOCUMENTO" id="DA8F952A-2187-7F79-49F9-753C6D31779A">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_ASSINATURAS</sourceObjSchema>
+<sourceObjName>ID_DOCUMENTO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="260A2FD9-F408-AB43-166C-D5487DD63E8E" referredColumn="EFD39F85-C5E8-C0D2-AD44-8E4CD43F4478"/>
+</associations>
+</Column>
+<Column name="ASSINATURA_DIGITAL" id="4F423988-8CF8-FD95-CECD-B2C7E40E0531">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_ASSINATURAS</sourceObjSchema>
+<sourceObjName>ASSINATURA_DIGITAL</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ASSINATURA" id="4BD25ED9-B7D9-AA19-E80F-984A491C2E25">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_ASSINATURAS</sourceObjSchema>
+<sourceObjName>DT_ASSINATURA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALIDACAO_BIOMETRIA" id="F4B0F9BC-4F07-2C2B-08C7-4E3C7282512C">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_ASSINATURAS</sourceObjSchema>
+<sourceObjName>VALIDACAO_BIOMETRIA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<constraintName>SYS_C009449</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;0&apos;" description=""/>
+<valueDef value="&apos;1&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALIDACAO_BLOCKCHAIN" id="2237F21E-384C-7ADA-DB85-EB63377622EB">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_ASSINATURAS</sourceObjSchema>
+<sourceObjName>VALIDACAO_BLOCKCHAIN</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<constraintName>SYS_C009450</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;0&apos;" description=""/>
+<valueDef value="&apos;1&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="880C130A-060D-293E-DBD9-04BA5D5571BB" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_ASSINATURAS_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009451</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="940CF47B-2AA5-D9EB-F4FA-D12884AE014A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F4C20A1-5B85-B957-0C0C-5E1F1C8DEB44" name="FK_ASSINATURAS_DOCUMENTO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA8F952A-2187-7F79-49F9-753C6D31779A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C8E41FB-9DBA-B6CF-17DF-461AAE37938F" name="FK_ASSINATURAS_USUARIO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C96C8EC-25CD-8595-A9DA-AD024F80FA4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

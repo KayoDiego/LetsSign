@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="237C20BE-358E-C9DA-65DC-92302CEC43AF" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_DOCUMENTOS">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>T_DOCUMENTOS</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DOCUMENTO" id="EFD39F85-C5E8-C0D2-AD44-8E4CD43F4478">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_DOCUMENTOS</sourceObjSchema>
+<sourceObjName>ID_DOCUMENTO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="CDE52478-324A-AE02-639F-B1A50514693F">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_DOCUMENTOS</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0565DC78-01DB-3A28-5C38-BED38B3BDBAA" referredColumn="F5DDA239-FD07-02B5-7BFE-A3ED0F6414FE"/>
+</associations>
+</Column>
+<Column name="NOME_DOCUMENTO" id="5DF54679-4578-3FE2-4868-04FF4C210B07">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_DOCUMENTOS</sourceObjSchema>
+<sourceObjName>NOME_DOCUMENTO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HASH_DOCUMENTO" id="253350C0-8696-A883-F057-F3CA81701CCB">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_DOCUMENTOS</sourceObjSchema>
+<sourceObjName>HASH_DOCUMENTO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO_DOCUMENTO" id="CFE307DF-CC19-6EA5-D02A-6B875B04CE86">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_DOCUMENTOS</sourceObjSchema>
+<sourceObjName>DT_CADASTRO_DOCUMENTO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_VALIDACAO" id="0F336658-4D37-6957-73A1-3FA695BA8458">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>T_DOCUMENTOS</sourceObjSchema>
+<sourceObjName>STATUS_VALIDACAO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4E16A87-3536-6EDB-EDFD-3C8F883A025F" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="T_DOCUMENTOS_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009428</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD39F85-C5E8-C0D2-AD44-8E4CD43F4478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8E81228-6732-4181-41CF-EC8F962DBDC4" name="FK_DOCUMENTOS_USUARIO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDE52478-324A-AE02-639F-B1A50514693F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

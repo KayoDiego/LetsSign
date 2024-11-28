@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PESSOA_JURIDICA" directorySegmentName="seg_0" id="2FC0F135-2941-6CEF-3B3F-AFAB64D8DB10">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8776CEBF-5935-3C9C-1B4F-15CFADD8CB7B</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DS_RAMO_ATIVIDADE" id="8AA1BEC6-34ED-659F-8B9F-F58D73D429A1">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_CNPJ" id="9CEF2D7F-28CE-D03B-B042-9107C00AFB74">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="F134BE6F-5DB0-EA11-C444-D54FFD0024E8">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PESSOAJURIDICA_USUARIO" id="CF7A92AC-3D7E-4950-613B-E862588B8517">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PESSOA_JURIDICA_PK" id="09D99DC6-3102-7265-9790-6C1570D2EC7D">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<segment>5C1EA42B-2977-1A00-F558-CF031594CAEC</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<indexSegment>5C1EA42B-2977-1A00-F558-CF031594CAEC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PESSOA_JURIDICA_NR_CNPJ_UN" id="183B9020-9DB1-9350-F774-61D4EECAFFD4">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<segment>5C1EA42B-2977-1A00-F558-CF031594CAEC</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<indexSegment>5C1EA42B-2977-1A00-F558-CF031594CAEC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

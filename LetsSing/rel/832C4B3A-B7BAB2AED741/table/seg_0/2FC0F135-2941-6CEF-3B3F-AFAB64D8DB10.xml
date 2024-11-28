@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FC0F135-2941-6CEF-3B3F-AFAB64D8DB10" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="PESSOA_JURIDICA">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PESSOA_JURIDICA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="F134BE6F-5DB0-EA11-C444-D54FFD0024E8">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>PESSOA_JURIDICA</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CNPJ" id="9CEF2D7F-28CE-D03B-B042-9107C00AFB74">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>PESSOA_JURIDICA</sourceObjSchema>
+<sourceObjName>NR_CNPJ</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_RAMO_ATIVIDADE" id="8AA1BEC6-34ED-659F-8B9F-F58D73D429A1">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>PESSOA_JURIDICA</sourceObjSchema>
+<sourceObjName>DS_RAMO_ATIVIDADE</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09D99DC6-3102-7265-9790-6C1570D2EC7D" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="PESSOA_JURIDICA_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009388</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F134BE6F-5DB0-EA11-C444-D54FFD0024E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="183B9020-9DB1-9350-F774-61D4EECAFFD4" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="PESSOA_JURIDICA_NR_CNPJ_UN">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C009389</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CEF2D7F-28CE-D03B-B042-9107C00AFB74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF7A92AC-3D7E-4950-613B-E862588B8517" name="FK_PESSOAJURIDICA_USUARIO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F134BE6F-5DB0-EA11-C444-D54FFD0024E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

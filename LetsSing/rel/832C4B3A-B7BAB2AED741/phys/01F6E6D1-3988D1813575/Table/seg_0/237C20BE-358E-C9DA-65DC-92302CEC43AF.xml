@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_DOCUMENTOS" directorySegmentName="seg_0" id="237C20BE-358E-C9DA-65DC-92302CEC43AF">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8776CEBF-5935-3C9C-1B4F-15CFADD8CB7B</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS_VALIDACAO" id="0F336658-4D37-6957-73A1-3FA695BA8458">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HASH_DOCUMENTO" id="253350C0-8696-A883-F057-F3CA81701CCB">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME_DOCUMENTO" id="5DF54679-4578-3FE2-4868-04FF4C210B07">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="CDE52478-324A-AE02-639F-B1A50514693F">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_CADASTRO_DOCUMENTO" id="CFE307DF-CC19-6EA5-D02A-6B875B04CE86">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DOCUMENTO" id="EFD39F85-C5E8-C0D2-AD44-8E4CD43F4478">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DOCUMENTOS_USUARIO" id="C8E81228-6732-4181-41CF-EC8F962DBDC4">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000080418C00004$$" id="CFE7965F-E1D5-08AE-70E5-EF71D04E5E32">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>HASH_DOCUMENTO</column>
+<logging>YES</logging>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_DOCUMENTOS_PK" id="C4E16A87-3536-6EDB-EDFD-3C8F883A025F">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<segment>5C1EA42B-2977-1A00-F558-CF031594CAEC</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<indexSegment>5C1EA42B-2977-1A00-F558-CF031594CAEC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

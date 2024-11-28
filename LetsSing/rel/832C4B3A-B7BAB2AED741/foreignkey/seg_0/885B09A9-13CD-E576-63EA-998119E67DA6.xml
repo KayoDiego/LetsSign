@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="885B09A9-13CD-E576-63EA-998119E67DA6" containerWithKeyObject="08946074-274B-3651-0B7F-B2ABEE876FC8" localFKIndex="6F0E6B1D-2D5E-E50B-663E-EA48B74844C6" name="FK_TRANSACOES_BLOCO">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_TRANSACOES_BLOCO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<referredTableLongName>SYS.T_BLOCOS_BLOCKCHAIN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5C23FB5-6064-2C89-BA96-C84BC51FFE85</referredTableID>
+<keyObject>6F742408-37FA-44A9-DE36-6306A5A45E09</keyObject>
+<referredKeyID>6F742408-37FA-44A9-DE36-6306A5A45E09</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_BLOCO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

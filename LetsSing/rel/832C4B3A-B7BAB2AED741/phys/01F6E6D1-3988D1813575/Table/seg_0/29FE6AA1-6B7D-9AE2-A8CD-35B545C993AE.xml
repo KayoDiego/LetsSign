@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_ASSINATURAS" directorySegmentName="seg_0" id="29FE6AA1-6B7D-9AE2-A8CD-35B545C993AE">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8776CEBF-5935-3C9C-1B4F-15CFADD8CB7B</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_USUARIO" id="0C96C8EC-25CD-8595-A9DA-AD024F80FA4A">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALIDACAO_BLOCKCHAIN" id="2237F21E-384C-7ADA-DB85-EB63377622EB">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_ASSINATURA" id="4BD25ED9-B7D9-AA19-E80F-984A491C2E25">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ASSINATURA_DIGITAL" id="4F423988-8CF8-FD95-CECD-B2C7E40E0531">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ASSINATURA" id="940CF47B-2AA5-D9EB-F4FA-D12884AE014A">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DOCUMENTO" id="DA8F952A-2187-7F79-49F9-753C6D31779A">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALIDACAO_BIOMETRIA" id="F4B0F9BC-4F07-2C2B-08C7-4E3C7282512C">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ASSINATURAS_USUARIO" id="5C8E41FB-9DBA-B6CF-17DF-461AAE37938F">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ASSINATURAS_DOCUMENTO" id="7F4C20A1-5B85-B957-0C0C-5E1F1C8DEB44">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000080436C00004$$" id="48707FD7-45BF-69FD-1EFC-2A97D550CBB7">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>ASSINATURA_DIGITAL</column>
+<logging>YES</logging>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ASSINATURAS_PK" id="880C130A-060D-293E-DBD9-04BA5D5571BB">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<schemaObject>8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC</schemaObject>
+<segment>5C1EA42B-2977-1A00-F558-CF031594CAEC</segment>
+<tableSpace>3B366ADA-5EAC-2596-E962-FE0EA82A1A2C</tableSpace>
+<indexSegment>5C1EA42B-2977-1A00-F558-CF031594CAEC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BAC9F29-4FFB-ECB0-FC13-FF19994255E6" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="PESSOA_FISICA">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PESSOA_FISICA</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="4E30BDF7-BA29-9271-838C-B63E38CE64D6">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>PESSOA_FISICA</sourceObjSchema>
+<sourceObjName>ID_USUARIO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_RG" id="5E2491A1-6686-CEE5-BE4D-AB42C88ABE12">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>PESSOA_FISICA</sourceObjSchema>
+<sourceObjName>NR_RG</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CPF" id="33B08460-01D2-AF26-541B-4CBAC6EF6BCE">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>PESSOA_FISICA</sourceObjSchema>
+<sourceObjName>NR_CPF</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO" id="7088D95C-81C6-A711-3C02-D56A2BE2E890">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>PESSOA_FISICA</sourceObjSchema>
+<sourceObjName>DT_NASCIMENTO</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:06 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CB987B6-D057-30C0-A0F9-4CC7EBADB1BB" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="PESSOA_FISICA_PK">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C008343</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E30BDF7-BA29-9271-838C-B63E38CE64D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="917060FB-645E-73D8-1616-04AE6D484C73" schemaObject="8A6F1B9B-F3A8-94E0-BF78-D6B9AE5D51EC" name="PESSOA_FISICA_NR_CPF_UN">
+<sourceConnName>ADMIN</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C008344</sourceObjName>
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:07 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33B08460-01D2-AF26-541B-4CBAC6EF6BCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A451193-04E3-CE07-6D3B-74F3A281BBB8" name="FK_PESSOAFISICA_USUARIO">
+<createdBy>Kayo</createdBy>
+<createdTime>2024-11-28 15:40:08 UTC</createdTime>
+<ownerDesignName>LetsSing</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E30BDF7-BA29-9271-838C-B63E38CE64D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
